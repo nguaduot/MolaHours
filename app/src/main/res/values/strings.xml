@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mola 工时计算器</string>
+    <string name="accessibility_service_label">@string/app_name</string>
+    <string name="accessibility_service_description">无障碍服务启用后，Mola APP 上线，每次进入「摆车记录」查看，即会自动统计当前页工单总工时并显示（Toast + 通知）。</string>
+    <string name="toast_stats">%d 单总工时：%s</string>
+    <string name="notification_channel_name">结果通知</string>
+    <string name="notification_channel_description">进入 Mola 查看「摆车记录」时，显示工时计算结果通知</string>
+    <string name="notification_title">共完成 %d 单</string>
+    <string name="notification_content">总工时：%s</string>
+    <string name="title_settings">设置</string>
+    <string name="preference_run_title">启动服务</string>
+    <string name="preference_run_summary_on">无障碍服务已启动，进入 Mola 查看「摆车记录」时，即会计算总工时并显示。</string>
+    <string name="preference_run_summary_off">请启动无障碍服务，启动后，进入 Mola 查看「摆车记录」时，即会计算总工时并显示。</string>
+    <string name="preference_category_about">关于</string>
+    <string name="preference_app_title">@string/app_name</string>
+    <string name="preference_developer_title">开发者</string>
+    <string name="preference_developer_summary">\@nguaduot &#060;nguaduot\@163.com&#062;</string>
+    <string name="preference_update_title">检查更新</string>
+    <string name="preference_update_summary">@string/uri_update</string>
+    <string name="preference_copyright_title">版权所有</string>
+    <string name="preference_copyright_summary">Copyright 2020 nguaduot. All rights reserved.</string>
+    <string name="uri_contact">mailto:nguaduot\@163.com</string>
+    <string name="uri_update">https://nguaduot.lanzoui.com/b00zvtoni</string>
+</resources>

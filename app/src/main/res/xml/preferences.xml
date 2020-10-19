@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_preference_accessibility"
+        android:key="service"
+        android:summaryOff="@string/preference_run_summary_off"
+        android:summaryOn="@string/preference_run_summary_on"
+        android:title="@string/preference_run_title" />
+
+    <PreferenceCategory android:title="@string/preference_category_about">
+
+        <Preference
+            android:icon="@drawable/ic_preference_task"
+            android:key="app"
+            android:title="@string/preference_app_title" />
+
+        <Preference
+            android:icon="@drawable/ic_preference_pumpkin"
+            android:summary="@string/preference_developer_summary"
+            android:title="@string/preference_developer_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/uri_contact" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/ic_preference_download"
+            android:title="@string/preference_update_title"
+            android:summary="@string/preference_update_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/uri_update" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/ic_preference_copyright"
+            android:summary="@string/preference_copyright_summary"
+            android:title="@string/preference_copyright_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
